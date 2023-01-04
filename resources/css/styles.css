@@ -35,8 +35,6 @@ html {
 }
 
 .navbar {
-    display: inline-flex ;
-    left: 20%;
     position: relative;
     z-index: 2;
     padding: 25px;
