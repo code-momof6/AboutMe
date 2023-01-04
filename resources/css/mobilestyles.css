@@ -24,9 +24,9 @@ a {
     text-decoration: none;
 }
 
-.header{
+/* .header{
     border-bottom: 1px solid #E2E8F0;
-}
+} */
 
 .navbar {
     display: flex;
@@ -76,7 +76,7 @@ a {
         position: fixed;
         left: -150%;
         top: 5rem;
-        background-color: rgb(178, 170, 170);
+        background: linear-gradient(0.25turn, #a5f1e9, #ebf8e1, #145c1f, #ebf8e1, #a5f1e9);
         width: 100%;
         border-radius: 10px;
         text-align: center;
@@ -93,6 +93,11 @@ a {
     .nav-item {
         margin: 2rem 0;
         
+    }
+
+    .nav-link{
+        font-size: 1.1rem;
+        padding: .2rem;
     }
 
     .hamburger {

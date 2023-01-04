@@ -1,5 +1,6 @@
 html {
-    background-color: #A5F1E9;
+    /* background-color: #A5F1E9; */
+    background: linear-gradient(0.25turn, #a5f1e9, #ebf8e1, #145c1f, #ebf8e1, #a5f1e9);
 }
 
 body {
@@ -38,7 +39,7 @@ body {
 }
 
 .top-container { 
-    background-color: #A5F1E9;
+    /* background-color: #A5F1E9; */
     position: relative;
     scroll-padding-top: 100px;
     margin: 0;
@@ -57,8 +58,7 @@ body {
     list-style: none;
     position: relative;
     margin: 0 5px 0;
-    border: .5px solid #090a0a;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 5px;
     border-radius: 5px;
 }
@@ -73,7 +73,7 @@ body {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 90px;
-    color: #345c5c;
+    color: #162727;
     line-height: 2;
     z-index: 2;
     position: relative; 
@@ -83,13 +83,14 @@ body {
 .h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    color: #345c5c;
+    color: #162727;
     font-weight: normal;
     
 }
 
 .subtitle {
     z-index: 3;
+    color: #162727
 }
 
 .h3 {
@@ -147,7 +148,7 @@ body {
 .bottom-cloud2 {
     position: relative;
     left: 65%;
-    bottom: 110px;
+    bottom: 150px;
     animation: cloud 10s infinite linear;
     margin-left: 15%;
 }
