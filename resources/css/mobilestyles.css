@@ -59,11 +59,7 @@ a {
     margin-left: 5rem;
 }
 
-.nav-link{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #606871;
-}
+
 
 .nav-link:hover{
     color: #fc3c7c;
@@ -78,7 +74,7 @@ a {
 @media only screen and (max-width: 850px) {
     .nav-menu {
         position: fixed;
-        left: -100%;
+        left: -150%;
         top: 5rem;
         background-color: rgb(178, 170, 170);
         width: 100%;
@@ -95,7 +91,8 @@ a {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 2rem 0;
+        
     }
 
     .hamburger {
@@ -124,14 +121,20 @@ a {
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media screen and (max-width: 399) {
     ul {
-        font-size: smaller;
+        font-size: .8rem;
         
     }
     .nav-list {
         margin: 3px;
         flex-shrink: 2;
+    }
+
+    .nav-link{
+        font-size: .7rem;
+        font-weight: 100;
+        color: #606871;
     }
     
 } 
