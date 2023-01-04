@@ -1,6 +1,17 @@
 html {
     background-color: #A5F1E9;
 }
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    font-size: 20px;
+
+}
+
+
 @media only screen and (max-width: 810px) {
     html {
       font-size: 14px;
@@ -53,15 +64,8 @@ html {
 }
  
 .nav-list {
-    margin: 10px;
+    margin: 5px;
     right: 0;
-}
-
-body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #40514E;
 }
 
 /*headers*/
@@ -72,13 +76,13 @@ body {
     color: #345c5c;
     line-height: 2;
     z-index: 2;
-    position: relative;
+    position: relative; 
       
 }
 
 .h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #345c5c;
     font-weight: normal;
     
@@ -230,9 +234,14 @@ hr {
     
 }
 
+.intro {
+    margin: 15px;
+}
+
 .titles {
     list-style: none;
     padding-left: 0px;
+    font-size: 1.5rem;
     
 }
 

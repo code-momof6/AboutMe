@@ -40,7 +40,7 @@ a {
 }
 
 .bar {
-    display: block;
+    display: flex;
     width: 25px;
     height: 3px;
     margin: 5px auto;
@@ -60,9 +60,9 @@ a {
 }
 
 .nav-link{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #606871;
 }
 
 .nav-link:hover{
@@ -80,12 +80,13 @@ a {
         position: fixed;
         left: -100%;
         top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
+        /* flex-direction: column; */
+        background-color: rgb(178, 170, 170);
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
+        animation: ease-in-out;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
@@ -117,91 +118,3 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-
-@media only screen and (max-width: 850px) {
-    .nav-menu {
-        position: relative;
-        left: 100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 15px;
-        text-align: center;
-        transition: 0.2s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-    span.bar {
-        display: flex;
-        
-    }
-
-    .nav-item {
-        display: flex;
-    }
-    
-    .nav-link {
-        display: none;
-        
-    }
-    .hamburger.active .bar:nth-child(2) {
-        transform: rotate(90deg);
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 1.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-    html {
-      font-size: 14px;
-    }
-    
-}
-
- 
-  
-  @media only screen and (max-width: 540px) {
-    html {
-      font-size: 14px;
-    }
-    .navbar {
-        display: inline-flex ;
-        left: 30%;
-        position: relative;
-        z-index: 2;
-        padding: 25px;
-    }
-  }
-
-@media only screen and (max-width: 350px) {
-    ul {
-        font-size: smaller;
-        
-    }
-    .nav-list {
-        margin: 3px;
-        flex-shrink: 2;
-    }
-    
-} */
