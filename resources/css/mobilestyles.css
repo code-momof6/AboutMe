@@ -80,7 +80,6 @@ a {
         position: fixed;
         left: -100%;
         top: 5rem;
-        /* flex-direction: column; */
         background-color: rgb(178, 170, 170);
         width: 100%;
         border-radius: 10px;
@@ -124,3 +123,15 @@ a {
         position: relative;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    ul {
+        font-size: smaller;
+        
+    }
+    .nav-list {
+        margin: 3px;
+        flex-shrink: 2;
+    }
+    
+} 
