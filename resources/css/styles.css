@@ -72,6 +72,8 @@ body {
     font-size: 90px;
     color: #345c5c;
     line-height: 2;
+    z-index: 2;
+    position: relative;
       
 }
 
@@ -102,8 +104,8 @@ body {
 
 .top-cloud {
     position: absolute;
-    right: 25em;
-    bottom: 110%;
+    left: 50em;
+    top: 30;
     margin-left: 15%;
     animation-name: cloud;
     animation-duration: 30s;
@@ -112,37 +114,97 @@ body {
 }
 
 .top-cloud2 {
-    position: absolute;
-    left: 30em;
-    bottom: 98%;
+    position: relative;
+    right: 30em;
+    bottom: 68%;
     animation: cloud 11s infinite linear;
     margin-left: 5%;
+    
    
 }
 
 .mountain {
-    width: 30%;
+    width: 40%;
+    z-index: 0;
+    position: relative;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 65%;
-    bottom: 30%;
+    position: relative;
+    left: 50em;
+    bottom: 50%;
     margin-left: 15%;
     animation-name: cloud;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    
 }
 
 .bottom-cloud2 {
-    position: absolute;
-    left: 50%;
-    bottom: 180px;
-    animation: cloud 11s infinite linear;
+    position: relative;
+    left: 65%;
+    bottom: 110px;
+    animation: cloud 10s infinite linear;
     margin-left: 15%;
 }
 
+.bottom-cloud3 {
+    position: absolute;
+    right: 65%;
+    bottom: 100px;
+    animation: cloud 20s infinite linear;
+    margin-left: 25%;
+    z-index: 1;
+}
+
+.cloud {
+    position: absolute;
+    /*   */
+    animation: cloud 30s linear infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  .cloud2 {
+    position: absolute;
+    animation: cloud2 30s linear infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+@keyframes cloud {
+    0% {
+        left: 0;
+      }
+    50% {
+        left: 50;
+      }
+
+    75% {
+        left: 75;
+    }
+    100% {
+        left: 100;
+        
+      }
+    
+  }
+
+  @keyframes cloud2 {
+    0% {
+        right: 0;
+      }
+    50% {
+        right: 50;
+      }
+
+    75% {
+        right: 75;
+    }
+    100% {
+        right: 100;
+        
+      }
+    }
 .tech-img {
     width: 25%;
     float: left;
@@ -196,9 +258,6 @@ table {
 tbody tr:nth-child(odd) {
     background-color: #A5F1E9;
   }
-
-
-
 
 
 .middle-container {
@@ -274,29 +333,4 @@ a:hover {
     color: #11999e
 
 }
-
-.cloud {
-    position: absolute;
-    /*   */
-    animation: cloud 30s linear infinite;
-    animation-direction: alternate-reverse;
-  }
-  
-@keyframes cloud {
-    0% {
-        left: 0;
-      }
-    50% {
-        right: 50;
-      }
-
-    75% {
-        left: 75;
-    }
-    100% {
-        right: 100;
-        
-      }
-    
-  }
 
