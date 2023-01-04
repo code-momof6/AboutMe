@@ -117,4 +117,10 @@ a {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .mountain {
+        width: 60%;
+        z-index: 0;
+        position: relative;
+    }
 }
