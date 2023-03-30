@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "monicaborders.com",
+  "Id": "def4374a-4f05-4027-9f2b-3ea0150a35af"
+}
